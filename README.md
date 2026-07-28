@@ -8,3 +8,34 @@ A full-stack Ecommerce web application built using **Spring Boot**, **Spring Dat
 - **Frontend:** React, Axios, Bootstrap
 - **Database:** H2 Database
 - **Build Tool:** Maven
+  
+## ▶️ Running the Application
+
+### Backend
+
+```bash
+cd ecom-proj
+./mvnw spring-boot:run
+```
+
+Or run the `EcomProjApplication` class from IntelliJ IDEA.
+
+Backend runs at:
+
+```
+http://localhost:8080
+```
+
+### Frontend
+
+```bash
+cd Frontend
+npm install
+npm run dev
+```
+
+Frontend runs at:
+
+```
+http://localhost:5173
+```
